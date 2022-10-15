@@ -5,5 +5,7 @@ module.exports = defineConfig({
       libraryTarget: 'system',
     },
   },
-  transpileDependencies: true
+  transpileDependencies: [
+    'vuetify'
+  ]
 })
