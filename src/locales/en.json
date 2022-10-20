@@ -1,4 +1,8 @@
 {
   "characterListLink": "Go to character list",
-  "characterListTitle": "Character list"
+  "characterListTitle": "Character list",
+  "header1": "Name",
+  "header2": "Species",
+  "header3": "Gender",
+  "header4": "Image"
 }

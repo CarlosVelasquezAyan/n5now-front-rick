@@ -19,7 +19,7 @@ const routes = [
     },
     children: [
       {
-        path: "/",
+        path: "",
         name: "home",
         component: HomeView,
       },
@@ -39,6 +39,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
+  mode: 'history',
   routes,
 });
 

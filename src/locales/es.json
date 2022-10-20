@@ -1,4 +1,8 @@
 {
   "characterListLink": "Ir al listado de personajes",
-  "characterListTitle": "Listado de personajes"
+  "characterListTitle": "Listado de personajes",
+  "header1": "Nombre",
+  "header2": "Especie",
+  "header3": "Género",
+  "header4": "Foto"
 }

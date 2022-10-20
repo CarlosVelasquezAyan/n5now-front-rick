@@ -1,23 +1,21 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  configureWebpack:{
+  configureWebpack: {
     output: {
-      libraryTarget: 'system',
+      libraryTarget: "system",
     },
   },
 
-  transpileDependencies: [
-    'vuetify'
-  ],
+  transpileDependencies: ["vuetify"],
 
   pluginOptions: {
     i18n: {
-      locale: 'es',
-      fallbackLocale: 'en',
-      localeDir: 'locales',
+      locale: "es",
+      fallbackLocale: "es",
+      localeDir: "locales",
       enableInSFC: true,
       includeLocales: false,
-      enableBridge: true
-    }
-  }
-})
+      enableBridge: true,
+    },
+  },
+});

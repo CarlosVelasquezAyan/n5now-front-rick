@@ -4,6 +4,8 @@ import App from "./App.vue";
 import vuetify from "./plugins/vuetify";
 import router from "./router";
 import i18n from "./i18n";
+import Vuex from "vuex";
+import store from "./store/index.js";
 
 Vue.config.productionTip = false;
 // use beforeEach route guard to set the language
@@ -38,7 +40,9 @@ const vueLifecycles = singleSpaVue({
     },
     vuetify,
     router,
+    store,
     i18n,
+    Vuex,
   },
 });
 
