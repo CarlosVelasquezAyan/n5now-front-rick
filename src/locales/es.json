@@ -4,5 +4,9 @@
   "header1": "Nombre",
   "header2": "Especie",
   "header3": "Género",
-  "header4": "Foto"
+  "header4": "Estado",
+  "header5": "Localización",
+  "header6": "Origen",
+  "header7": "Foto",
+  "clickImg": "Haga click para expandir la imagen"
 }

@@ -11,10 +11,11 @@ export default new Vuex.Store({
     getCharacters: (state) => state.characters,
   },
   actions: {
-    async fetchCharacters({ commit }) {
+    async fetchCharacters({ commit }, payload) {
+      console.log(payload);
       try {
         const data = await axios.get(
-          "https://rickandmortyapi.com/api/character"
+          "https://rickandmortyapi.com/api/character/?page=" + payload
         );
         commit("SET_CHARACTERS", data.data);
       } catch (error) {

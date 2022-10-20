@@ -4,5 +4,9 @@
   "header1": "Name",
   "header2": "Species",
   "header3": "Gender",
-  "header4": "Image"
+  "header4": "Status",
+  "header5": "Location",
+  "header6": "Origin",
+  "header7": "Image",
+  "clickImg": "Click to expand image"
 }
