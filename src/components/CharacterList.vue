@@ -7,7 +7,6 @@
           ? characters.results
           : []
       "
-      :options.sync="options"
       :server-items-length="
         characters && characters.info && characters.info.count
           ? characters.info.count
