@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="344">
+  <v-card class="mx-auto" max-width="344" style="margin-top: 100px">
     <v-img src="@/assets/Rick_and_Morty.svg"></v-img>
     <v-card-title> Rick and Morty </v-card-title>
     <v-card-actions>
